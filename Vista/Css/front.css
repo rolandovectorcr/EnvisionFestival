@@ -1,0 +1,253 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-03-2017, 10:27:39 PM
+    Author     : MipcHP
+*/
+
+#frontvideo {
+    
+    opacity: 0.9;
+    
+    position:fixed;
+    min-height: 100%;
+    min-width: 100%;
+
+    top: 50%;
+    left:50%;
+
+    transform: translateX(-50%) translateY(-50%);
+
+    z-index: -1;
+}
+#frontvideo:hover{
+    
+}
+
+
+#front{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: all 0.5s;
+}
+#frontespecial{
+    background-image: url(../Img/x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: all 0.5s;
+}
+
+#frontespecial:hover{
+    opacity: 0.7;
+}
+#front2{
+    background-image: url(../Img/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.front2{
+    background-image: url(../Img/f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#title{
+    color: #009999;
+    font-size: 40px;
+}
+#subtitle{
+    color: #000;
+    font-size: 25px;
+}
+#buttontitle3{
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#buttontitle3:hover{
+    background-color: #c5c500;
+    text-decoration: none;
+}
+#buttontitle5{
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#buttontitle5:hover{
+    background-color: #c5c500;
+    text-decoration: none;
+}
+#buttontitle{
+    font-size: 70px;
+    padding: 20px;
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: #c5c500;
+    margin: 5px;
+}
+
+#buttontitle:hover{
+    background-color: #cccc00;
+    text-decoration: none;
+}
+#buttontitle2{
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid #666666;
+    color: #666666;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#buttontitle2:hover{
+    background-color: #c5c500;
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+}
+
+#title{
+        color: white;
+        font-size: 60px;
+    }
+    #subtitle{
+        color: white;
+        font-size: 40px;
+    }
+    #buttontitle{
+        font-size: 20px;
+        padding: 13px;
+        color: white;
+        cursor: pointer;
+        transition: all 0.5s;
+        background-image: linear-gradient(to right, #c5c500 , #999900);
+        border: 0px;
+        margin: 5px;
+    }
+
+    #buttontitle:hover{
+        background-color: #c5c500
+    }
+    #buttontitle4{
+        font-size: 20px;
+        padding: 13px;
+        color: white;
+        cursor: pointer;
+        transition: all 0.5s;
+        background-image: linear-gradient(to right, #009999, #00cece);
+        border: 0px;
+        margin: 5px;
+    }
+
+    #buttontitle4:hover{
+        background-color: #00cece
+    }
+    #buttontitle5{
+        font-size: 22px;
+        padding: 10px;
+        border: 2px solid black;
+        color: black;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    #buttontitle5:hover{
+        background-color: #00cece;
+        text-decoration: none;
+    }
+    #buttontitle3{
+        font-size: 15px;
+        padding: 10px;
+        border: 2px solid white;
+        color: white;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    #buttontitle3:hover{
+        background-color: #00cece;
+        text-decoration: none;
+    }
+
+@media only screen and (min-width: 768px) {
+    #title{
+        color: white;
+        font-size: 60px;
+    }
+    #subtitle{
+        color: white;
+        font-size: 40px;
+    }
+    #buttontitle{
+        font-size: 20px;
+        padding: 13px;
+        color: white;
+        cursor: pointer;
+        transition: all 0.5s;
+        background-image: linear-gradient(to right, #c5c500 , #999900);
+        border: 0px;
+        margin: 5px;
+    }
+
+    #buttontitle:hover{
+        background-color: #c5c500
+    }
+    #buttontitle4{
+        font-size: 20px;
+        padding: 13px;
+        color: white;
+        cursor: pointer;
+        transition: all 0.5s;
+        background-image: linear-gradient(to right, #009999, #00cece);
+        border: 0px;
+        margin: 5px;
+    }
+
+    #buttontitle4:hover{
+        background-color: #00cece
+    }
+    #buttontitle5{
+        font-size: 30px;
+        padding: 10px;
+        border: 2px solid gold;
+        color: #009999;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    #buttontitle5:hover{
+        background-color: #00cece;
+        text-decoration: none;
+        color: white
+    }
+    #buttontitle3{
+        font-size: 15px;
+        padding: 10px;
+        border: 2px solid gold;
+        color: white;
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+
+    #buttontitle3:hover{
+        background-color: #00cece;
+        text-decoration: none;
+    }
+}
